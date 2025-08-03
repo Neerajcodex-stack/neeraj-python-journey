@@ -1,0 +1,71 @@
+# Python supports several built-in data types:
+#          Integers: (int): Whole numbers  (e.g., 10, -5)
+#          Floats: (float): Decimal numbers (e.g., 3.14, -0.001)
+#          String: (str): Text data enclosed in quotes (e.g.,"hello",'python')
+#          Boolens: (bool): Represents True or False.
+#          Lists : Orderd, mutable collections (e.g. {1,2,3})
+#          Tuples: Ordered, immutable collections (e.g.(1,2,3))
+#          Sets: Unorderd collection of unique elemnts (e.g.{1,2,3})
+#          Dictionaries: Key-value pairs (e.g.,{"name": "Alice", "age": 25})
+
+
+
+
+
+age = 3
+print(age)
+print(type(age))
+
+
+
+cgpa = 8.2
+print(cgpa)
+print(type(cgpa))                                               #the this line in every code tell the type 
+                                                                       #of data types by running
+
+
+name = "neeraj"
+print(name)
+print(type(name))
+
+
+
+Is_completed = True #can also be False
+print(Is_completed)
+print(type(Is_completed))
+
+
+
+
+
+
+
+
+
+
+#practice chatgpt
+
+x = 23
+y = "23"
+z = 23.0
+a = "23.0"
+b = "Neeraj"
+d = "54"
+
+print (x)
+print(type(x))
+
+print (y)
+print(type(y))
+
+print (z)
+print(type(z))
+
+print (a)
+print(type(a))
+
+print (b)
+print (type(b))
+
+print(d)
+print(type(d))

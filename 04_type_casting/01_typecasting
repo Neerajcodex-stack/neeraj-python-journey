@@ -1,0 +1,68 @@
+a = 34
+b = "34"            #क्योंकि तुमने b = "34" लिखा है — और " " (double quotes) के अंदर जो भी होता है, 
+                                       #वो हमेशा string होता है, भले ही वो दिखने में number जैसा लगे।
+                                       # "34" is a string, but 34 is an integer                      
+d = 223
+
+
+
+
+print(a)
+print(type(a))
+
+print(b)
+print(type(b))                          #after running this we can se that (a) remains integer 
+                                                     # but (b) converted into string____why?????
+                                                     
+
+##### CONVERT (b) TO AN INTEGER 
+
+c = int(b)                                    #using mindpower 
+print(c)
+print(type(c))
+
+
+
+####### CONVERT (d) TO STRING
+
+e = str(d)
+print(e)
+print(type(e))
+
+
+
+
+
+# PRACTICE WITH CHAT GPT
+
+
+x = "42"
+x = int(x)
+print (x)
+print (type(x))
+
+
+x = 45.67
+# convert to string
+x = str (45.67)
+print (x)
+print (type(x))
+
+
+a = "123"
+a = float("123")
+print(a)
+print(type(a))
+
+
+
+a = "50"
+b = 10
+a = int("50")
+print(a)
+print(type(a))
+
+
+b = float(10)
+print(b)
+print(type(b))
